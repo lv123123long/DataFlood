@@ -1,0 +1,101 @@
+brokerlist: '10.48.20.211:9092'
+
+
+
+#brokerlist: 'localhost:9092'
+#logtypes: 'TCPFLOW,DNS,WEBLOG,FILE,MAIL,LOGIN,DB,ATTACK,LDAP,SSL,FTPOP,UDPFLOW,WEBSHELL,WEBATTACK,ABNORMAL,TELNET,IOC'
+TCPFLOW:
+  status: 'false'
+  topic: 'ty_tcp'
+  number: 39999
+  data_dir: '/data07/ckqi'
+DNS:
+  status: 'false'
+  topic: 'ty_dns'
+  number: 59994
+  data_dir: '/ckqi'
+WEBLOG:
+  status: 'yes'
+  topic: 'test'
+  number: 10000
+  data_dir: '/ckqi1'
+FILE:
+  status: 'false'
+  topic: 'td_skyeye_file'
+  number: -1
+MAIL:
+  status: 'false'
+  topic: 'td_skyeye_mail'
+  number: -1
+LOGIN:
+  status: 'false'
+  topic: 'td_skyeye_login'
+  number: -1
+DB:
+  status: 'false'
+  topic: 'td_skyeye_sql'
+  number: -1
+LDAP:
+  status: 'false'
+  topic: 'td_skyeye_ldap'
+  number: -1
+SSL:
+  status: 'false'
+  topic: 'td_skyeye_ssl'
+  number: -1
+FTPOP:
+  status: 'false'
+  topic: 'td_skyeye_ftpop'
+  number: -1
+UDPFLOW:
+  status: 'false'
+  topic: 'td_skyeye_udpflow'
+  number: -1
+ABNORMAL:
+  status: 'false'
+  topic: 'td_skyeye_abnormal'
+  number: -1
+TELNET:
+  status: 'false'
+  topic: 'td_skyeye_telnetcmd'
+  number: -1
+IOC:
+  status: 'false'
+  topic: 'td_skyeye_ioc'
+  number: -1
+IDS:
+  status: 'false'
+  topic: 'td_skyeye_ids'
+  number: -1
+WEBSHELL:
+  status: 'false'
+  topic: 'td_skyeye_webshell'
+  number: -1
+WEBATTACK:
+  status: 'false'
+  topic: 'td_skyeye_webattack'
+  number: -1
+PROPERTY:
+  status: 'false'
+  topic: 'td_skyeye_property'
+  number: -1
+ICMP:
+  status: 'false'
+  topic: 'td_skyeye_icmp'
+  number: -1
+VIRUSES:
+  status: 'false'
+  topic: 'td_skyeye_viruses'
+  number: -1
+DHCP:
+  status: 'false'
+  topic: 'td_skyeye_dhcp'
+  number: -1
+KERBEROS:
+  status: 'false'
+  topic: 'td_skyeye_kerberos'
+  number: -1
+RADIUS:
+  status: 'false'
+  topic: 'td_skyeye_radius'
+  number: -1
